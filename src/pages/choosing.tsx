@@ -5,6 +5,8 @@ import InsuranceDataForm from "components/choosing/InsuranceDataForm";
 import { MagnifyingGlass } from "react-loader-spinner";
 
 import urlLogo from "images/logo.png";
+import urlFamily from "images/family.svg";
+import urlBaseHero from "images/base-hero.png";
 import { Person } from "classes/Person";
 import { getPerson } from "services/getPerson";
 import Image from "next/image";
@@ -99,6 +101,14 @@ function Choosing() {
             />
           </header>
           <section className="separator-choosing-section">
+            <Image
+              src={urlFamily}
+              height={"90vh"}
+              objectFit="scale-down"
+              layout="fill"
+              style={{ zIndex: 2 }}
+            />
+            <Image src={urlBaseHero} height={"90vh"} objectFit="cover" layout="fill" />
             <div className="mt-20 ml-30-percent">
               <Image
                 src={urlLogo}

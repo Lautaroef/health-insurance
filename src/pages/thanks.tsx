@@ -4,6 +4,8 @@ import { useRouter } from "next/router";
 import urlManOk from "images/man-ok.svg";
 import urlBannerThanks from "images/banner-thanks.svg";
 import urlLogo from "images/logo.png";
+import urlFamily from "images/family.svg";
+import urlBaseHero from "images/base-hero.png";
 
 function Thanks() {
   const router = useRouter();
@@ -21,6 +23,17 @@ function Thanks() {
         <Image className="" src={urlBannerThanks} alt="Wayfair" />
       </div>
       <section className="separator-thanks-section">
+        <Image
+          priority
+          src={urlFamily}
+          objectFit="scale-down"
+          layout="fill"
+          objectPosition="right"
+          style={{
+            zIndex: 2,
+          }}
+        />
+        <Image src={urlBaseHero} objectFit="fill" layout="fill" priority />
         <div className="mt-20 ml-30-percent">
           <Image className="logo-image" src={urlLogo} alt="Wayfair" width={120} height={36} />
         </div>
