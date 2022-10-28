@@ -11,7 +11,7 @@
   min-height: 480px;
   padding: 0 0 0 20%;
   color: $--white;
-  background-image: url(./../images/family.svg), url(./../images/base-hero.png);
+  background-image: url(../images/family.svg), url(../images/base-hero.png);
   background-size: 25%, 90% 100%;
   background-position: right 75%, left center;
   background-repeat: no-repeat, no-repeat;
@@ -133,7 +133,7 @@ input[type="checkbox"] {
     flex-wrap: wrap;
   }
   .hero-section {
-    background-image: url(./../images/family.svg), url(./../images/base-small.png);
+    background-image: url(../images/family.svg), url(../images/base-small.png);
     background-size: 45%, 100% 100%;
     background-position: 110% 75%, left center;
 

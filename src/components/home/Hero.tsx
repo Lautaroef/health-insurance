@@ -70,7 +70,7 @@ function Hero() {
               height={24}
               src={urlIconClinic}
             />
-            <p>Más de 300 clínicas en todo el Perú</p>
+            <p>Más de 300 clínicas en todo Argentina</p>
           </li>
         </ul>
 
@@ -120,7 +120,7 @@ function Hero() {
                 height={24}
                 src={urlIconClinic}
               />
-              <p>Más de 300 clínicas en todo el Perú</p>
+              <p>Más de 300 clínicas en todo el Argentina</p>
             </li>
           )}
           <div className="flex align-center">
