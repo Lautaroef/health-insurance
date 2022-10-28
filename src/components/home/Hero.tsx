@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "next/image";
 
 import urlLogo from "images/logo.png";
 import urlIconShield from "images/icon-shield.svg";
@@ -9,7 +10,6 @@ import urlIconBack from "images/icon-back.svg";
 import urlIconBackDisabled from "images/icon-back-disabled.svg";
 import urlIconNext from "images/icon-next.svg";
 import urlIconNextDisabled from "images/icon-next-disabled.svg";
-import Image from "next/image";
 
 function Hero() {
   const [currentSlide, setCurrentSlide] = useState(1);
@@ -120,7 +120,7 @@ function Hero() {
                 height={24}
                 src={urlIconClinic}
               />
-              <p>Más de 300 clínicas en todo el Argentina</p>
+              <p>Más de 300 clínicas en todo Argentina</p>
             </li>
           )}
           <div className="flex align-center">
