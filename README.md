@@ -25,10 +25,10 @@ Para acceder al proyecto deployado, puede hacerlo desde la dirección: https://h
 
 ### Capturas de pantalla
 
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app1.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app2.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app3.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app4.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app5.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app6.png)
-![](https://raw.githubusercontent.com/joel-eche/health-insurance-quote/master/src/images/app7.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app1.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app2.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app3.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app4.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app5.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app6.png)
+![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app7.png)
