@@ -42,6 +42,7 @@
   .hero-section__copyright {
     padding-bottom: 10%;
     font-size: 12px;
+    z-index: 1;
 
     span {
       color: $--primary-light;
