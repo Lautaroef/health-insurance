@@ -1,29 +1,30 @@
-# Cotizador de seguros
+# Health Insurance quoter
 
-Aplicación simple que simula un cotizador de seguros de salud, realizada utilizando las tecnologías de Reactjs con Typescript y manejo de estilos con Sass
+Simple and fast health insurance quoter created for a insurance company in Argentina, Salta.
+Created using React.js, Next.js, TypeScript, Sass, and yup for form validation.
 
-### Características
 
-- Fueron utilizados React + Typescript + Sass
-- Consumo de API con fetch, el endpoint brindado fue: https://freestyle.getsandbox.com/dummy/obtenerdatospersona
-- Aplicación web maquetada de acuerdo al diseño
-- Se consideró validación de formularios
-- Implementación del flujo completo
-- Responsive design
+### Characteristics
 
-### Cómo correr el proyecto
+- Fully responsive
+- Web application layout conceptualized and designed according to the provided mockups
+- Full flow implemented
+- Form validation was considered using yup
+- API consumption with fetch, the provided endpoint was: https://freestyle.getsandbox.com/dummy/obtenerdatospersona
+- Easy to use
 
-- Clonar el repositorio
-- Instalar dependencias: `yarn install`
-- Ejecutar proyecto: `yarn start`
-- Podrá visualizar el proyecto corriendo desde su navegador, accediendo a la dirección `http://localhost:3000/`
-- **Importante:** para simular el happy path, es necesario utilizar el **DNI: 25809150** y como **fecha de nacimiento: 11/05/1972**
+### How to run the project
 
-### Proyecto deployado
+- Clone the repository
+- Run npm install
+- Run npm run dev
+- Open http://localhost:3000 with your browser to see the result
 
-Para acceder al proyecto deployado, puede hacerlo desde la dirección: https://health-insurance-quote-joel-eche.netlify.app/
+### Deployed version
 
-### Capturas de pantalla
+To access the deployed project, you can do it from the address: https://health-insurance-three.vercel.app/
+
+### Screenshots
 
 ![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app1.png)
 ![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app2.png)
