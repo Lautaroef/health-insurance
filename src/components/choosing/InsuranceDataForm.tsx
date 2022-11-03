@@ -89,9 +89,9 @@ function InsuranceDataForm({ person }: InsuranceFormValues) {
                 <div className="flex align-center mb-20 font-12">
                   <Image
                     alt="Back"
+                    onClick={goHomePage}
                     src={urlIconBackRounded}
                     className="cursor-pointer ml-30-neg"
-                    onClick={goHomePage}
                   />
                   <span className="color-primary cursor-pointer ml-8" onClick={goHomePage}>
                     PASO 1&nbsp;

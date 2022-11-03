@@ -1,4 +1,7 @@
-import { useEffect, useLayoutEffect, useState } from "react";
+import Image from "next/image";
+import Head from "next/head";
+
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import InsuranceDataForm from "components/choosing/InsuranceDataForm";
 
@@ -9,7 +12,6 @@ import urlFamily from "images/family.svg";
 import urlBaseHero from "images/base-hero.png";
 import { Person } from "classes/Person";
 import { getPerson } from "services/getPerson";
-import Image from "next/image";
 
 declare global {
   type TRouter = ReturnType<typeof useRouter> & {
@@ -76,6 +78,10 @@ function Choosing() {
 
   return (
     <>
+      <Head>
+        <title>Choose your health insurance</title>
+        <meta name="description" content="Choose your health insurance" />
+      </Head>
       {isLoading ? (
         <div className="w-100vh w-100vh flex align-center justify-center">
           <MagnifyingGlass
@@ -106,9 +112,16 @@ function Choosing() {
               height={"90vh"}
               objectFit="scale-down"
               layout="fill"
+              alt="Family"
               style={{ zIndex: 2 }}
             />
-            <Image src={urlBaseHero} height={"90vh"} objectFit="cover" layout="fill" />
+            <Image
+              src={urlBaseHero}
+              height={"90vh"}
+              objectFit="cover"
+              layout="fill"
+              alt="Background image"
+            />
             <div className="mt-20 ml-30-percent">
               <Image
                 src={urlLogo}

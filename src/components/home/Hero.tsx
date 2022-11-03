@@ -40,7 +40,7 @@ function Hero() {
         <ul className="hero-section__info__services--large">
           <li className="flex align-center">
             <Image
-              alt="ico"
+              alt="icon-shield"
               className="hero-icon"
               width={24}
               height={24}
@@ -50,7 +50,7 @@ function Hero() {
           </li>
           <li className="flex align-center">
             <Image
-              alt="ico"
+              alt="icon-mobile"
               className="hero-icon"
               width={24}
               height={24}
@@ -59,12 +59,18 @@ function Hero() {
             <p>Cotiza y compra tu seguro 100% digital</p>
           </li>
           <li className="flex align-center">
-            <Image alt="ico" className="hero-icon" width={24} height={24} src={urlIconMoney} />
+            <Image
+              alt="icon-cash"
+              className="hero-icon"
+              width={24}
+              height={24}
+              src={urlIconMoney}
+            />
             <p>Hasta S/.12 millones de cobertura anual</p>
           </li>
           <li className="flex align-center">
             <Image
-              alt="ico"
+              alt="icon-clinic"
               className="hero-icon"
               width={24}
               height={24}
@@ -78,7 +84,7 @@ function Hero() {
           {currentSlide === 1 && (
             <li className="">
               <Image
-                alt="ico"
+                alt="icon-shield"
                 className="hero-icon"
                 width={24}
                 height={24}
@@ -90,7 +96,7 @@ function Hero() {
           {currentSlide === 2 && (
             <li className="">
               <Image
-                alt="ico"
+                alt="icon-mobile"
                 className="hero-icon"
                 width={24}
                 height={24}
@@ -102,7 +108,7 @@ function Hero() {
           {currentSlide === 3 && (
             <li className="">
               <Image
-                alt="ico"
+                alt="icon-cash"
                 className="hero-icon"
                 width={24}
                 height={24}
@@ -114,7 +120,7 @@ function Hero() {
           {currentSlide === 4 && (
             <li className="">
               <Image
-                alt="ico"
+                alt="icon-clinic"
                 className="hero-icon"
                 width={24}
                 height={24}
