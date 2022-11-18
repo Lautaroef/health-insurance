@@ -1,11 +1,20 @@
 # Health Insurance quoter
 
 Simple and fast health insurance quoter created for a insurance company in Argentina, Salta.
-Created using React.js, Next.js, TypeScript, Sass, and yup for form validation.
 
+### 💻 Technologies used
+- React.js
+- Next.js
+- TypeScript
+- Sass (For styling)
+- Node.js
+- Express.js
 
-### Characteristics
+### **Other**
+- Formik (To manage form inputs)
+- Yup (To handle form validation)
 
+###  Characteristics
 - Fully responsive
 - Web application layout conceptualized and designed according to the provided mockups
 - Full flow implemented
@@ -14,18 +23,15 @@ Created using React.js, Next.js, TypeScript, Sass, and yup for form validation.
 - Easy to use
 
 ### How to run the project
-
 - Clone the repository
 - Run npm install
 - Run npm run dev
 - Open http://localhost:3000 with your browser to see the result
 
-### Deployed version
+### Demo version
+To access the demo project, you can do it from the address: https://health-insurance-three.vercel.app/
 
-To access the deployed project, you can do it from the address: https://health-insurance-three.vercel.app/
-
-### Screenshots
-
+### 📷 Screenshots
 ![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app1.png)
 ![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app2.png)
 ![](https://github.com/Lautaroef/health-insurance/blob/main/src/images/app3.png)
