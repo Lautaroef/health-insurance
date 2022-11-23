@@ -2,6 +2,8 @@
 
 Simple and fast health insurance quoter created for a insurance company in Argentina, Salta.
 
+It consists of 4 unique pages with dynamic content depending on the user's choice.
+
 ### 💻 Technologies used
 - React.js
 - Next.js
